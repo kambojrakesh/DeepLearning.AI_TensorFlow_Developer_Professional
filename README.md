@@ -12,3 +12,8 @@ seaborn==0.11.2
 https://faroit.com/keras-docs/0.2.0/optimizers/
 https://keras.io/api/metrics/
 https://keras.io/api/losses/
+https://www.tensorflow.org/guide/keras/save_and_serialize
+https://www.tensorflow.org/guide/keras/sequential_model
+https://medium.com/ai%C2%B3-theory-practice-business/tensorflow-1-0-vs-2-0-part-3-tf-keras-ea403bd752c0
+
+https://www.tensorflow.org/api_docs/python/tf
