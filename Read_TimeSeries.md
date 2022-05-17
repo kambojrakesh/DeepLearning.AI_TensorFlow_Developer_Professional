@@ -81,6 +81,14 @@ val_set = windowed_dataset(x_valid, window_size, batch_size, shuffle_buffer_size
 tf.keras.backend.clear_session() --> clear all previously used memory
 
 
+---------------------
+
+class myCallback(tf.keras.callbacks.Callback) can also check the validation across mae and mse
+
+
+
+
+
 
 
 
