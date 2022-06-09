@@ -87,3 +87,30 @@ val_batches = tf.data.experimental.cardinality(validation_dataset)
 test_dataset = validation_dataset.take(val_batches // 5)
 validation_dataset = validation_dataset.skip(val_batches // 5)
 
+----------------------------------------------------------------------------------------------------
+
+Callback - https://github.com/https-deeplearning-ai/tensorflow-1-public/blob/main/C1/W2/ungraded_labs/C1_W2_Lab_2_callbacks.ipynb
+ImageGEnerater - https://www.coursera.org/learn/introduction-tensorflow/programming/jrt41/handling-complex-images/lab?path=%2Fnotebooks%2FC1W4_Assignment.ipynb
+
+RMSprop optimization algorithm is preferable to stochastic gradient descent (SGD), because RMSprop automates learning-rate tuning for us. (Other optimizers, such as Adam and Adagrad, also automatically adapt the learning rate during training, and would work equally well here
+
+ValidationGenerator - https://github.com/https-deeplearning-ai/tensorflow-1-public/blob/main/C2/W1/ungraded_lab/C2_W1_Lab_1_cats_vs_dogs.ipynb
+
+
+Data Augementation - https://github.com/https-deeplearning-ai/tensorflow-1-public/blob/main/C2/W2/ungraded_labs/C2_W2_Lab_2_horses_v_humans_augmentation.ipynb
+
+
+Transform learning - https://github.com/https-deeplearning-ai/tensorflow-1-public/blob/main/C2/W3/ungraded_lab/C2_W3_Lab_1_transfer_learning.ipynb
+
+
+Multi-class Classifier - 
+https://github.com/https-deeplearning-ai/tensorflow-1-public/blob/main/C2/W4/ungraded_lab/C2_W4_Lab_1_multi_class_classifier.ipynb
+
+
+Tokenizer and padding - https://github.com/https-deeplearning-ai/tensorflow-1-public/blob/main/C3/W1/ungraded_labs/C3_W1_Lab_3_sarcasm.ipynb
+
+https://github.com/https-deeplearning-ai/tensorflow-1-public/blob/main/C3/W2/ungraded_labs/C3_W2_Lab_3_imdb_subwords.ipynb
+
+
+Toeknizr with N Grams:-
+https://github.com/https-deeplearning-ai/tensorflow-1-public/blob/main/C3/W4/ungraded_labs/C3_W4_Lab_2_irish_lyrics.ipynb

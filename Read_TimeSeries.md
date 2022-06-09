@@ -2,6 +2,8 @@ https://colab.research.google.com/github/https-deeplearning-ai/tensorflow-1-publ
 https://en.wikipedia.org/wiki/Huber_loss
 
 
+https://dinhanhthi.com/deeplearning-ai-tensorflow-course-4/#train-%2F-validation-%2F-test
+
 ----------------------------------------------------------------------------------------------------
 #Time Series applications - stock prices, weather forecasts, historical trends, such as Moore's law.
 #set of random values producing what's typically called white noise
@@ -64,6 +66,11 @@ In lambda : input_length  => [none] - model can expect sequence of any length
                       input_shape=[None]),
    tf.keras.layers.Bidirectional(tf.keras.layers.LSTM(32, return_sequences=True)),
   tf.keras.layers.Bidirectional(tf.keras.layers.LSTM(32)),
+
+
+default activation function in the RNN layers is tan H which is the hyperbolic tangent activation
+
+  tf.keras.layers.Lambda(lambda x:x*100)  --------------> get updated output
 
 ----------------------------------------------
 
